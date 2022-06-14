@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+     password: nehareddy7875@
+     url: jdbc:mysql://localhost:3306/farmersconnectdb
+     username: root
+  jpa:
+    hibernate: 
+    ddl-auto: update
+    properties:
+      hibernate:
+       dialect: org.hibernate.dialet.MySQL8Dialect
