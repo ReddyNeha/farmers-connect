@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
      password: nehareddy7875@
-     url: jdbc:mysql://localhost:3306/farmersconnectdb
+     url: jdbc:mysql://localhost:3306/farmerdb?useSSL=false
      username: root
   jpa:
     hibernate: 
