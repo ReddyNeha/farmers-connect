@@ -1,14 +1,15 @@
 server:
   port: 8081
 spring:
-  datasource:
-     password: nehareddy7875@
-     url: jdbc:mysql://localhost:3306/farmerdb?useSSL=false
-     username: root
+datasource:
+driver-class-name: com.mysql.cj.jdbc.Driver
+url: jdbc:mysql://localhost:3306/farmerdb
+username: root
+password: nehareddy7875@
 jpa:
-    hibernate: 
-    ddl-auto: create-drop
-    properties:
-      hibernate:
-       dialect: org.hibernate.dialet.MySQL8Dialect
- 
+show-sql: true
+hibernate:
+ddl-auto: create
+properties:
+hibernate:
+dialect: org.hibernate.dialect.MySQL8Dialect
