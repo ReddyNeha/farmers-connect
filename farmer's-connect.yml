@@ -5,7 +5,7 @@ spring:
      password: nehareddy7875@
      url: jdbc:mysql://localhost:3306/farmerdb?useSSL=false
      username: root
-  jpa:
+jpa:
     hibernate: 
     ddl-auto: create-drop
     properties:
